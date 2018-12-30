@@ -13,7 +13,6 @@ def get_similars(word, list_):
         b = ''.join(b)
         for suspect in list_:
             suspect = suspect.strip()
-            suspect = suspect
             if word == suspect:
                 continue
             a = list(suspect)
